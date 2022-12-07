@@ -1,0 +1,66 @@
+function addition(a,b){
+  let sum=a+b;
+  return sum
+}
+let sum1=addition(10,2);
+console.log(sum1)
+
+function sub(a,b){
+  let res=a-b;
+  return res
+}
+let res1=sub(10,2);
+console.log(res1)
+
+function multiply(a,b){
+  let mul=a*b;
+  return mul
+}
+let mul1=multiply(10,2);
+console.log(mul1)
+
+function divide(a,b){
+  let div=a/b;
+  return div
+}
+let div1=divide(10,2);
+console.log(div1)
+
+//Math using function
+function addition(a,b,c){
+  let sum=a+b+c;
+  return sum;  
+}
+function multiply(a,b,c){
+  let mul=a*b*c;
+  return mul;
+}
+function divide(a,b,c){
+  let div=multiply(a,b,c)/addition(a,b,c);
+  return div;
+}
+let div1=divide(10,6,3);
+console.log(div1);
+console.log('Greast whole num='+Math.ceil(div1));
+
+//Area of rectangle
+function areaOfRectangle(length,width){
+  let area=length*width;
+  return area
+}
+let area1=areaOfRectangle(52,46);
+console.log('Area of rectangle='+area1)
+
+//finding prime in the array using function
+var arr=[2,4,3,5,13,7,9,67,12,53,65,86,11,64,23,13]
+function isprime(n){
+  if(n<0)
+    return false;
+  for(let i=2;i<n;i++){
+    if(n%i==0){
+      return false;
+    }
+  }
+  return true;
+}
+console.log(arr.filter(isprime))
