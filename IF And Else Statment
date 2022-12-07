@@ -1,0 +1,23 @@
+let a=5;
+let b=8;
+let c=3;
+let result=(a+b+c);
+let sum=a+b;
+let sub=c-a;
+let mul=b*c;
+let div=a/c;
+
+console.log('sum='+sum)
+console.log('sub='+sub)
+console.log('mul='+mul)
+console.log('div='+div)
+
+if(result>20){
+    console.log('Result is greater then 20='+(a*b))
+}
+else
+{
+    console.log('Result is less then 20='+(b/c))
+    console.log('Result using Math floor='+Math.floor(b/c))
+    console.log('Result using Math ceil='+Math.ceil(b/c))
+}
