@@ -1,0 +1,352 @@
+body {
+    /* background-image: url(file:///C:/Users/Parthi/Desktop/Ajith%20Kumar/image/alyani-unsplash.jpg); */
+    background-size: cover;
+    /* background-color: #0a192f; */
+    background-position: top;
+    scroll-behavior: smooth;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+aside {
+    right: 2%;
+    position: fixed;
+    margin-top: 150px;
+}
+
+.links li {
+    margin-bottom: 5px;
+    list-style: none;
+}
+
+/*navbar style*/
+.navbar {
+    position: sticky;
+    top: 0;
+}
+
+.nav_list li {
+    display: inline;
+    list-style: none;
+    margin-right: 30px;
+    justify-content: space-around;
+}
+
+.nav_list {
+    margin-right: 10px;
+
+}
+.links img{
+    width: 40px;
+    height: 40px;
+}
+
+.logo {
+    width: 180px;
+    height: 180px;
+    margin-left: 30px;
+}
+
+.nav_list a {
+    text-decoration: none;
+    color: #39b54a;
+    letter-spacing: 3px;
+    font-weight: 700;
+    transition: all;
+    transition-duration: 0.2s;
+}
+
+.nav_list a:hover {
+    color: #e2e6ec;
+    background-color: #39b54a;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.navbar nav {
+    height: 85px;
+    background-color: #0d1926;
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar img {
+    justify-content: space-evenly;
+}
+
+/*------title------*/
+.bg_image1 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(file:///C:/Users/Parthi/Desktop/Ajith%20Kumar/image/alyani-unsplash.jpeg);
+    background-attachment: scroll;
+}
+
+.title {
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    margin-top: 250px;
+}
+
+.title h3 {
+
+    color: #ffffffa9;
+    letter-spacing: 4px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.title h1 {
+
+    color: #ffffff;
+    letter-spacing: 10px;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+/*-------about--------*/
+.about {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.image {
+    height: 340px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.image h1 {
+    color: rgba(255, 255, 255, 0.384);
+    font-size: 6rem;
+    font-weight: 700px;
+    letter-spacing: 20px;
+    width: 500px;
+    height: 270px;
+    border-radius: 17px;
+    background-image: url("file:///C:/Users/Parthi/Desktop/Ajith%20Kumar/image/Leaf.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*-------info-------*/
+
+.info {
+    width: 500px;
+    height: fit-content;
+    text-align: justify;
+}
+
+.info p {
+    font-size: 18px;
+    line-height: 1.3;
+    font-weight: 400;
+    color: #c9c5c5;
+}
+
+.info h3 {
+    font-weight: 300px;
+    letter-spacing: 1px;
+    font-size: 2rem;
+}
+
+.tag2 {
+    margin-top: 80px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.design {
+    width: 500px;
+    height: fit-content;
+    text-align: justify;
+}
+
+.design p {
+    font-size: 18px;
+    line-height: 1.3;
+    font-weight: 400;
+    color: #c9c5c5;
+}
+
+.design h3 {
+    font-weight: 300px;
+    letter-spacing: 1px;
+    font-size: 2rem;
+}
+
+.eng {
+    width: 500px;
+    height: fit-content;
+    text-align: justify;
+}
+
+.eng p {
+    font-size: 18px;
+    line-height: 1.3;
+    font-weight: 400;
+    color: #c9c5c5;
+}
+
+.eng h3 {
+    font-weight: 300px;
+    letter-spacing: 1px;
+    font-size: 2rem;
+}
+
+
+/*--------skills-----*/
+.bg_image2 {
+    background-image: url(file:///C:/Users/Parthi/Desktop/Ajith%20Kumar/image/NatureRoad.jpeg);
+    background-size: cover;
+
+}
+
+.skill {
+    margin-top: 0px;
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+}
+
+.skill h1 {
+    margin-bottom: 100px;
+    color: rgba(255, 255, 255, 0.384);
+    font-size: 6rem;
+    font-weight: 700px;
+    letter-spacing: 20px;
+    width: 500px;
+    height: 270px;
+    border-radius: 17px;
+    background-image: url("file:///C:/Users/Parthi/Desktop/Ajith%20Kumar/image/space.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill ul {
+    list-style: none;
+    letter-spacing: 3px;
+    margin: 0 0 0 100px;
+}
+
+.skill li {
+    margin: 18px 0;
+}
+
+
+/*----- edu-----*/
+
+.edu {
+    margin-bottom: 50px;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.edu_title {
+    height: 340px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.edu_title h1 {
+    color: rgba(125, 184, 224, 0.479);
+    font-size: 4rem;
+    font-weight: 500px;
+    letter-spacing: 11px;
+    width: 500px;
+    height: 270px;
+    border-radius: 17px;
+    background-image: url("file:///C:/Users/Parthi/Desktop/Ajith%20Kumar/image/Dark_leaf.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    margin-top: 2rem;
+    background-color: #ffffff;
+    border-radius: 7px;
+    opacity: 30%;
+    color: #000000;
+    padding: 30px;
+}
+
+.college {
+    margin: 10px 0;
+}
+
+.college h3 {
+    margin-top: 5px;
+    font-weight: 150px;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+}
+
+.edu p {
+    margin-top: 5px;
+    font-weight: 900px;
+    letter-spacing: 1px;
+    font-size: 1, 5rem;
+}
+
+.school {
+    margin-top: 30pxpx;
+}
+
+.school h3 {
+    margin-top: 5px;
+    font-weight: 150px;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+}
+
+.footer {
+    position: static;
+    height: 60px;
+    background-color: #0d1926;
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer h3 {
+    font-weight: 300px;
+    letter-spacing: 1px;
+    font-size: 1rem;
+}
+
+#mail {
+    color: orangered;
+    text-decoration: none;
+    transition: all;
+    transition-duration: 0.3s;
+    padding: 1px 3px 1px 1px;
+    margin-left: 2px;
+}
+
+#mail:hover {
+    color: #1d1b1b;
+    background-color: #ffffff;
+    border-radius: 6px;
+
+}
